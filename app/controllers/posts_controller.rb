@@ -9,8 +9,8 @@ class PostsController < ApplicationController
 
   # GET /posts/1
   # GET /posts/1.json
-  def show
-  end
+  # def show
+  # end
 
   # GET /posts/new
   def new
@@ -20,11 +20,11 @@ class PostsController < ApplicationController
   # GET /posts/1/edit
   # def edit
   # end
-
-  # POST /posts
-  # POST /posts.json
-  def create
-    @post = Post.new(post_params)
+  #
+  # # POST /posts
+  # # POST /posts.json
+  # def create
+  #   @post = Post.new(post_params)
 
     respond_to do |format|
       if @post.save
